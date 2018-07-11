@@ -1,0 +1,7 @@
+# - Installation kubectl, kubeadm, kubelet 
+# echo "{DEBUG:[VERSION_K8S=$VERSION_K8S]}"
+# echo "Pressez une touche pour reprendre l'exécution de la recette"
+# read
+# sudo yum install -y kubelet-$VERSION_K8S kubeadm-$VERSION_K8S kubectl-$VERSION_K8S
+sudo yum install -y kubelet-VAL_VERSION_K8S kubeadm-VAL_VERSION_K8S kubectl-VAL_VERSION_K8S
+sudo systemctl enable kubelet && systemctl start kubelet

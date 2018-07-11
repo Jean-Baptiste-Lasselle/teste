@@ -1,0 +1,2 @@
+kubeadm init  --apiserver-bind-port=6443
+kubeadm init  --node-name=maitre1-jbl --kubernetes-version=v1.11.0 --apiserver-advertise-address=172.19.15.88 --apiserver-bind-port=6443 --apiserver-bind-port=6443
